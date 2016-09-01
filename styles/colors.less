@@ -1,5 +1,3 @@
-// Gaia Syntax Theme
-
 // Color scheme -----------------------------------
 
 @dbg: #2D2E2F; // Dark background
@@ -13,8 +11,8 @@
 @lt1: #6B6D5F; // Light bg text primary
 
 @red: #9D6936; // Red
-@ora: #BD8A21; // Orange
-@gre: #9B9C2A; // Green
+@ora: #B38121; // Orange
+@gre: #8B9C3A; // Green
 @blu: #6C9CBA; // Blue
 
 @mag: #BD9198; // Magenta
@@ -22,28 +20,30 @@
 @cya: #85AF85; // Cyan
 @vio: #8A8DB7; // Violet
 
-// Variables -----------------------------------
+// Visual order -----------------------------------
 
-@text-1: @lt1; // text primary
-@text-2: @lt2; // text secondary
+@primary1: @red;
+@primary2: @gre;
+@primary3: @ora;
 
-@color-1: @red; // color primary
-@color-2: @gre; // color secondary
-@color-3: @ora; // color tertiary
+@secondary1: @cya;
+@secondary2: @yel;
 
-@support-1: @cya; // support primary
-@support-2: @yel; // support secondary
+@tertiary1: @blu;
+@tertiary2: @vio;
+@tertiary3: @mag;
 
-@accent-1: @blu; // accent primary
-@accent-2: @vio; // accent secondary
-@accent-3: @mag; // accent tertiary
+// Theme variant ----------------------------------
 
-// Base vars -----------------------------------
-
-@syntax-fg: @text-1; // text primary
-@syntax-accent: @accent-1; // accent primary
+@text1: @lt1; // text primary
+@text2: @lt2; // text secondary
 @syntax-bg: @lbg; // background
 @syntax-guide: @lhl; // background highlight
+
+// Atom Base vars ---------------------------------
+
+@syntax-fg: @text1; // text primary
+@syntax-accent: @tertiary1; // cursor, markdown preview links, etc.
 @syntax-selection: @syntax-guide;
 @syntax-selection-gutter: @syntax-guide;
 @syntax-cursor-line: fade(@syntax-selection, 26%); // needs to be semi-transparent to show serach results
