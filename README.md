@@ -8,9 +8,9 @@ Low-to-medium contrast theme. The most prevalent colours are variants of brown, 
 
 ![gaia light screenshot](https://raw.githubusercontent.com/protesilaos/prot16/master/gaia/img/gaia_light_sample.png)
 
-*The font in the screenshot is [Hack](https://github.com/chrissimpkins/Hack)*.  
-*Demo code by http://codemirror.net/mode/javascript/index.html*  
-*The UI theme is https://atom.io/themes/atom-material-ui*.
+*The font is [Hack](https://github.com/chrissimpkins/Hack)*.  
+*JavaScript demo is source code of [prismjs](http://prismjs.com/)*  
+*The UI is my experimental fork of the default One Dark*.
 
 ## Download
 
